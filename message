@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# update the TOKEN and the CHANNELID, rest is optional
+# you may need to connect with a websocket the first time you run the bot
+#   use a library like discord.py to do so
+
+curl -v \
+-H "Authorization: Bot TOKEN" \
+-H "User-Agent: myBotThing (http://some.url, v0.1)" \
+-H "Content-Type: application/json" \
+-X POST \
+-d '{"come watch Little Nightmares 1 in vc HORROR!!":"Posting as a bot"}' \
+https://discord.com/api/webhooks/811845462030024704/BSQ_RhEV9qF4a9xX8zeJZNQK_YnODWvdJIRcCZXlxOXcBIb9OCNd25cfhboKpp_O0gei
